@@ -1,0 +1,42 @@
+.loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 9999999;
+  transition: all 0.3s;
+}
+
+.bar {
+  background-color: black;
+  margin-top: 372px;
+  height: 2px;
+  width: 600px;
+  z-index: 9999999999;
+  animation: progress 1s 1 0s linear;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes progress {
+  0% {
+    width: 2px;
+  }
+  25% {
+    width: 100px;
+  }
+  50% {
+    width: 400px;
+  }
+  75% {
+    width: 450px;
+  }
+  100% {
+    width: 600px;
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'JosefinSans-Regular';
+  src: url('JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans-Light';
+  src: url('JosefinSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'JosefinSans-Thin';
+  src: url('JosefinSans-Thin.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'JosefinSans-Regular', sans-serif;
+}
+
+h2,
+p {
+  font-family: 'JosefinSans-Light', sans-serif;;
+}

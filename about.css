@@ -1,0 +1,61 @@
+.about {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  transform: translateX(100%);
+
+  height: 100vh;
+  width: 100vw;
+
+  background-color: white;
+  text-align: center;
+  z-index: 999999;
+  overflow: hidden;
+
+  transition: all 0.4s ease-in;
+}
+
+.active {
+  transform: translateX(0%);
+}
+
+.about .buttons {
+  justify-content: flex-end;
+}
+
+.about .buttons .info {
+  max-width: 80px;
+  margin-right: 55px;
+  margin-top: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.about div p {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.about h1 {
+  color: #333333;
+}
+
+.about p {
+  font-size: 28px;
+}
+
+.about .buttons .info:hover {
+  transform: rotate(360deg);
+}
+
+.socialicons {
+  margin-top: 50px;
+}
+
+.socialicons box-icon:hover {
+ 	animation: hvr-bounce-in 1s linear 0s;
+}
+
+.socialicons box-icon {
+  max-width: 30px;
+}
